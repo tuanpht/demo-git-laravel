@@ -107,7 +107,7 @@ DB_HOST=mysql
 
 To run artisan command, enter the workspace container:
 ```
-sudo docker exec -it project_workspace bash
+sudo docker-compose exec workspace bash
 ```
 
 More info: https://github.com/FramgiaDockerTeam/laravel-microservices
