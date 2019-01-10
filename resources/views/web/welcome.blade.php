@@ -64,6 +64,10 @@
         </style>
     </head>
     <body>
+        <div id="app">
+            <form-component></form-component>
+        </div>
+        
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -94,5 +98,6 @@
                 </div>
             </div>
         </div>
+        <script type="text/javascript" src="{{ mix('/js/app.js', 'assets') }}"></script>
     </body>
 </html>
